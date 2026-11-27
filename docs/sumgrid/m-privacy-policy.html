@@ -45,7 +45,7 @@
   <body>
     <main>
       <h1>SumGrid Privacy Policy</h1>
-      <p>Last updated: 5 November 2026</p>
+      <p>Last updated: 27 November 2026</p>
       <h2>1. Who is responsible</h2>
       <p>
         Ahmed Elbari, an individual developer based in Qatar, provides SumGrid.
@@ -125,8 +125,8 @@
       <p>
         A connected opponent receives the shared puzzle or information needed to
         reconstruct it, challenge identifiers, player names, readiness and start
-        messages, and results. Results may include completion status, score,
-        elapsed time, mistakes, hints used, and moves, depending on the game.
+        messages, and results. Results include completion status,
+        elapsed time, mistakes, and moves.
         Some of this information is saved on both devices for resuming or
         comparing results. There is no public online leaderboard operated by the
         developer.
@@ -247,6 +247,14 @@
         information is ever processed.
       </p>
       <h2>11. Security and policy changes</h2>
+      <p>
+        Connected challenge messages are encrypted using AES-256-GCM. The
+        private eight-digit lobby code is used to authenticate the connection;
+        it is not advertised or sent directly in application messages. Nearby
+        discovery information, including your nickname and peer identifier,
+        is visible before an authenticated connection is established. Session
+        encryption does not encrypt local saves or device backups.
+      </p>
       <p>
         The game uses application storage and its nearby communication
         mechanisms to support play. No device, network, or storage method is

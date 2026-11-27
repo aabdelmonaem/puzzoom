@@ -94,7 +94,7 @@
   <body>
     <main>
       <h1>LetterCode Privacy Policy</h1>
-      <p>Last updated: 10 November 2026</p>
+      <p>Last updated: 27 November 2026</p>
       <h2>1. Who is responsible</h2>
       <p>
         Ahmed Elbari, an individual developer based in Qatar, provides
@@ -303,8 +303,11 @@
       <h2>11. Security and policy changes</h2>
       <p>
         The game uses local application storage and nearby sessions
-        authenticated using a private lobby code. The lobby code is not
-        advertised in discovery messages. The secret word is transmitted between
+        authenticated using a private 8-digit lobby code. Challenge messages
+        use AES-256-GCM authenticated encryption. The lobby code is not
+        advertised in discovery or sent directly in application messages.
+        Discovery information, including your nickname and peer identifier,
+        remains visible to compatible nearby devices before joining. The secret word is transmitted between
         connected players so that both devices can run the same puzzle. Local
         saves contain the answer and are not tamper-proof or a secure vault. No
         device, network, or storage method is guaranteed secure. Protect your
